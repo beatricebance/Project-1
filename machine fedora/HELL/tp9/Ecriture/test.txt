@@ -1,0 +1,12 @@
+dbt;	% debut du programme
+dal 2;
+det 2;
+mav 255;
+att 80;
+trd;
+mar;
+trg;
+att 20;
+mre 255;
+mar;
+fin;

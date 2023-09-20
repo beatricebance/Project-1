@@ -1,0 +1,8 @@
+dbt;
+mav 128;
+att 40;
+trd;
+mre 255;
+trg;
+mar;
+fin;

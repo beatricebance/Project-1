@@ -1,0 +1,31 @@
+dal 1;
+dbt;	% debut du programme
+dbc 2;	% debut boucle: clignoter
+dal 1;
+sgo 81;
+att 20;
+sar;
+det 2;
+sgo 81;
+att 20;
+sar;
+fbc;	% fin boucle: clignoter
+mav 255;
+att 80;
+dbc 3;	% debut boucle: tourner droite
+sgo 69;
+trd;
+mar;
+att 20;
+sar;
+fbc;	% fin boucle: tourner droite
+mar;
+trg;
+att 10;
+trg;
+sgo 45;
+mre 255;
+att 80;
+sar;
+mar;
+fin;

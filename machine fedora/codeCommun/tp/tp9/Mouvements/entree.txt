@@ -1,0 +1,115 @@
+//DESCRIPTION: Un programme qui contient les instructions du bytecode
+
+dbt;    //Debut du code
+
+//Boucle qui ferme et rallume DEL
+dbc 3;   //Ca va compter 4 fois
+dal 1;   //Allume la DEL #1
+att 10;   //Attendre 250ms
+det 1;   //Eteindre la DEL #1
+att 10;   //Attendre 250ms
+fbc;     //Fin de la boucle (DEL)
+
+//Fait avancer, tourner, reculer et arreter le robot
+mav 64;   //Avance avec une vitesse de 25%
+att 40;   //Attendre 1000ms
+mav 255;  //Avance avec une vitesse de 50%
+att 40;   //Attendre 1000ms
+trd;      //Tourner a droite
+mav 255;  //Avance avec une vitesse de 50%
+att 40;   //Attendre 1000ms
+trg;      //Tourner a gauche
+att 40;   //Attendre 1000ms
+mav 255;  //Avance avec une vitesse de 50%
+att 40;   //Attendre 1000ms
+mar;      //Arrete les moteurs (Reste immobile)
+mre 255;  //Recule a vitesse maximale
+att 40;   //Attendre 1000ms
+mar;      //Arrete les moteurs (Reste immobile)
+
+//Jouer la sonorite
+sgo 76;
+att 16;
+sgo 71;
+att 8;
+sgo 72;
+att 8;
+sgo 74;
+att 16;
+sgo 72;
+att 8;
+sgo 71;
+att 8;
+sgo 69;
+att 16;
+sgo 69;
+att 8;
+sgo 72;
+att 8;
+sgo 76;
+att 16;
+sgo 74;
+att 8;
+sgo 72;
+att 8;
+sgo 71;
+att 24;
+sgo 72;
+att 8;
+sgo 74;
+att 16;
+sgo 76;
+att 16;
+sgo 72;
+att 16;
+sgo 69;
+att 16;
+sgo 69;
+att 8;
+sar;
+att 16;
+sgo 69;
+att 8;
+sgo 71;
+att 8;
+sgo 72;
+att 8;
+sgo 74;
+att 24;
+sgo 77;
+att 8;
+sgo 81;
+att 16;
+sgo 79;
+att 8;
+sgo 77;
+att 8;
+sgo 76;
+att 24;
+sgo 72;
+att 8;
+sgo 76;
+att 16;
+sgo 74;
+att 8;
+sgo 72;
+att 8;
+sgo 71;
+att 16;
+sgo 71;
+att 8;
+sgo 72;
+att 8;
+sgo 74;
+att 16;
+sgo 76;
+att 16;
+sgo 72;
+att 16;
+sgo 69;
+att 16;
+sgo 69;
+att 16;
+sar;  //Arreter de jouer un son
+
+fin;    //Fin du code

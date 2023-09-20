@@ -1,0 +1,34 @@
+﻿Descrition du projet:
+
+Tout le code nécéssaire au fonctionnement du robot se situe dans les dossiers lib 
+
+Lib contient les fichiers sources des fonctionnalités du robot, tandis que exec contient uniquement le main et le makefile
+
+Le code est séparé selon les différentes fonctionnalités du robot :
+
+- gestion du bouton pour le robot emetteur : bouton.hpp, boutton.cpp
+
+- gestion du bouton pour le robot récepteur : boutonSection.hpp, boutonSection.cpp
+
+- gestion des DEL : delmanager.hpp, delmanager.cpp
+
+- gestion des ports pour les DEL : brochedel.hpp, brochedel.cpp
+
+- sections du parcours : sections.hpp, sections.cpp
+
+- gestion des roues : roues.hpp, roues.cpp
+
+- minuteries internes : minuterie.hpp, minuterie.cpp
+
+- émission et réception infrarouge : sirc.hpp, sirc.cpp
+
+- gestion du son : sonorite.hpp, sonorite.cpp
+
+- capteur de ligne : trackersensor.hpp, trackersensor.cpp
+
+- transmission/réception de données entre a carte et le pc : uart.hpp, uart.cpp
+
+
+
+
+
